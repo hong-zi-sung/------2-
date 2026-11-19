@@ -631,7 +631,7 @@ svg.icon {
   transform: scale(1.3);
 }
 .service-cards-grid > .service-item-card:nth-child(4) .service-card-img img {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 .service-cards-grid > .service-item-card:first-child .service-card-img img {
   object-fit: contain;
