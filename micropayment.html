@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>소액결제 안내 | 통신사 소액결제 상품권 구매 및 정책·미납 해결 가이드 – 티켓시티</title>
+  <meta name="description" content="티켓시티 소액결제 전문 가이드. SKT, KT, LGU+, 알뜰폰 소액결제 상품권 구매 방법, 결제 대행사(다날, 모빌리언스) 정책상 결제불가 및 미납 해결 상담을 안내합니다.">
+  <link rel="canonical" href="micropayment.html">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- SVG Symbols -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <defs>
+      <symbol id="i-gift" viewBox="0 0 24 24"><path d="M3 8h18v4H3zM5 12v9h14v-9M12 8v13M12 8C5 8 5 2 8 3c3 0 4 5 4 5Zm0 0c7 0 7-6 4-5-3 0-4 5-4 5Z"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9 10 10 0 0 1-4-1l-5 2 1-5a9 9 0 1 1 17-5Z"/><path d="M7 10h10M7 14h6"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 2 8 4v6c0 5-8 10-8 10S4 17 4 12V6Z"/><path d="m8 11 3 3 5-6"/></symbol>
+      <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20M6 15h4"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4V2h6v2M8 12l3 3 5-6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4M11 18h2"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="i-chevron-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
+
+  <!-- Top Real-time Status Bar -->
+  <div class="topline">
+    <div class="wrap">
+      <div class="live-indicator">
+        <span class="pulse-dot"></span>
+        <span>통신사 소액결제 정책 해결 센터 24시간 실시간 운영 중</span>
+      </div>
+      <div class="extra">
+        SKT · KT · LGU+ · 알뜰폰 미납 및 정책 오류 1:1 맞춤 상담
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="티켓시티 홈">
+        <div class="brand-symbol">
+          <svg class="icon"><use href="#i-gift"/></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">티켓시티</span>
+          <span class="brand-tag">TICKET CITY</span>
+        </div>
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav" id="main-nav" aria-label="주요 메뉴">
+        <a href="buy.html">상품권 매입</a>
+        <a href="micropayment.html" class="active">소액결제</a>
+        <a href="creditcard.html">신용카드할부</a>
+        <a href="faq.html">자주묻는질문</a>
+        <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="nav-channel">
+          <svg class="icon"><use href="#i-chat"/></svg> 채널톡
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-channel" href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer">
+          <svg class="icon"><use href="#i-chat"/></svg> 실시간 채널톡 상담 <svg class="icon" style="width:16px;height:16px;"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+
+      <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-nav">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+      <div class="wrap">
+        <span class="eyebrow">MOBILE BILLING</span>
+        <h1>휴대폰 소액결제 안내</h1>
+        <p>
+          SKT, KT, LGU+, 알뜰폰 통신사를 통한 안전한 상품권 결제 방법과<br>
+          대행사 정책상 결제 거절, 미납 문제 해결을 위한 최적의 솔루션을 1:1로 지원합니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Visual Showcase Banner -->
+    <section class="section" style="padding-bottom:0;">
+      <div class="wrap">
+        <div class="service-item-card" style="grid-template-columns:320px 1fr;background:linear-gradient(135deg,var(--city-navy) 0%,var(--city-navy-light) 100%);color:#fff;border-color:rgba(255,255,255,0.15);">
+          <div class="service-card-img" style="min-height:220px;">
+            <img src="images/micropayment.jpg" alt="소액결제 승인">
+          </div>
+          <div class="service-card-content" style="color:#fff;">
+            <div>
+              <span style="font-size:12px;font-weight:800;color:var(--city-gold);">통신사 안심 승인</span>
+              <h2 style="color:#fff;font-size:24px;margin-bottom:10px;">정책상 결제 불가로 고민 중이신가요?</h2>
+              <p style="color:#cbd5e1;font-size:14.5px;">
+                통신 요금 미납이나 신규 개통 제한으로 결제가 차단되었더라도, 티켓시티의 전문 분석을 통해 승인 가능한 최적의 결제처를 찾아드립니다.
+              </p>
+            </div>
+            <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="align-self:flex-start;">
+              <svg class="icon"><use href="#i-chat"/></svg> 나의 승인 가능 여부 1:1 확인
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">CARRIER GUIDELINES</span>
+            <h2>통신사별 결제 서비스 구분</h2>
+            <p class="section-desc">
+              휴대폰 결제는 일반 소액결제와 콘텐츠이용료(정보이용료)로 구분되어 운영됩니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="rate-showcase-grid">
+          <div class="rate-card">
+            <div>
+              <span class="rate-card-badge">SKT</span>
+              <h3>SK 텔레콤</h3>
+              <p>T월드 앱을 통해 소액결제 및 콘텐츠이용료 한도를 즉시 확인 및 조정할 수 있습니다.</p>
+            </div>
+            <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="btn btn-channel" style="width:100%;">
+              SKT 상담 문의
+            </a>
+          </div>
+
+          <div class="rate-card">
+            <div>
+              <span class="rate-card-badge" style="background:#eff6ff;color:#2563eb;">KT</span>
+              <h3>케이티 (KT)</h3>
+              <p>마이케이티 앱에서 한도 확인이 가능하며, 정책 오류 발생 시 대체 승인 가맹점 안내가 가능합니다.</p>
+            </div>
+            <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="btn btn-channel" style="width:100%;">
+              KT 상담 문의
+            </a>
+          </div>
+
+          <div class="rate-card">
+            <div>
+              <span class="rate-card-badge" style="background:#f1f5f9;color:var(--text-muted);">LGU+ / 알뜰폰</span>
+              <h3>LG유플러스 및 알뜰폰</h3>
+              <p>대행사(다날, 모빌리언스) 승인 기준에 맞춰 가능한 상품권 결제처를 맞춤형으로 안내합니다.</p>
+            </div>
+            <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="btn btn-channel" style="width:100%;">
+              LGU+/알뜰폰 상담 문의
+            </a>
+          </div>
+        </div>
+
+        <!-- Policy Resolution Section -->
+        <div style="margin-top:50px;">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">ERROR CODE SOLUTION</span>
+              <h2>대행사 정책 오류 해결 가이드</h2>
+              <p class="section-desc">
+                자주 발생하는 결제 차단 코드별 해결 솔루션을 제공합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>구분</th>
+                  <th>발생 원인</th>
+                  <th>주요 에러 코드 예시</th>
+                  <th>티켓시티 해결 솔루션</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>신규/기변 제한</strong></td>
+                  <td>개통 후 3개월 미만 회선에 대한 대행사 리스크 제한</td>
+                  <td>다날 432 / 모빌리언스 정책오류</td>
+                  <td>신규 회선 승인이 열려있는 특정 제휴 결제처로 맞춤 안내</td>
+                </tr>
+                <tr>
+                  <td><strong>통신요금 미납건</strong></td>
+                  <td>전월 또는 당월 요금 미납 이력으로 인한 결제 차단</td>
+                  <td>다날 605 / 437 코드</td>
+                  <td>미납 상태에서도 결제 승인이 가능한 대체 대행사 및 루트 분석</td>
+                </tr>
+                <tr>
+                  <td><strong>대행사 내부 한도 초과</strong></td>
+                  <td>통신사 한도는 남아있으나 대행사(다날 등) 자체 한도 소진</td>
+                  <td>다날 50 코드</td>
+                  <td>타 결제 대행사(갤럭시아, 페이레터 등)를 통한 상품권 결제 전환</td>
+                </tr>
+                <tr>
+                  <td><strong>정보이용료 잠김</strong></td>
+                  <td>앱스토어 및 원스토어 자체 결제 차단</td>
+                  <td>스토어 정책 오류</td>
+                  <td>원스토어 컬쳐랜드 상품권 등 승인 가능 결제 수단으로 우회</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Alert Box -->
+        <div class="info-alert">
+          <div class="info-alert-icon">
+            <svg class="icon" style="width:26px;height:26px;"><use href="#i-alert"/></svg>
+          </div>
+          <div>
+            <h4>소액결제 이용 시 주의사항</h4>
+            <p>
+              • 티켓시티는 고객님의 비밀번호나 인증번호를 무단으로 요구하지 않습니다. 고객님이 직접 공식 결제창에서 진행하신 후 핀번호만 접수받습니다.<br>
+              • 터무니없는 95% 이상 지급을 미끼로 선입금을 유도하거나 신분증 사본을 요구하는 사칭 업체에 각별히 유의하세요.<br>
+              • 모든 거래는 반드시 신청자 본인 명의 휴대폰 및 본인 명의 계좌로만 진행됩니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout Banner -->
+    <div class="wrap" style="margin-bottom:80px;">
+      <section class="callout">
+        <div>
+          <small>정책 오류 해결 전문</small>
+          <h2>결제가 막히셨다면, 티켓시티 1:1 상담창을 찾아주세요.</h2>
+          <p>전문 상담원이 고객님의 회선 상태를 정밀 진단하여 최적의 결제 승인 경로를 찾아드립니다.</p>
+        </div>
+        <a class="btn btn-gold" href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer">
+          <svg class="icon"><use href="#i-chat"/></svg> 채널톡 1:1 정책 상담 <span>→</span>
+        </a>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-row">
+        <div class="footer-info">
+          <a class="brand" href="index.html">
+            <div class="brand-symbol"><svg class="icon"><use href="#i-gift"/></svg></div>
+            <div class="brand-text">
+              <span class="brand-name">티켓시티</span>
+              <span class="brand-tag">TICKET CITY</span>
+            </div>
+          </a>
+          <p>상품권 매입 · 소액결제 · 신용카드할부 1:1 전문 상담 플랫폼</p>
+        </div>
+        <nav class="footer-nav" aria-label="하단 메뉴">
+          <a href="buy.html">상품권 매입</a>
+          <a href="micropayment.html">소액결제</a>
+          <a href="creditcard.html">신용카드할부</a>
+          <a href="faq.html">자주묻는질문</a>
+          <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer">채널톡 상담</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 티켓시티(Ticket City). All rights reserved.</span>
+        <span>소액결제 한도는 개인 신용도 및 통신사 내부 규정에 따라 차이가 있을 수 있습니다.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Buttons -->
+  <div class="floating-quick">
+    <a href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer" class="float-btn channel" title="1:1 채널톡 상담">
+      <span class="float-btn-badge">ON</span>
+      <svg class="icon" style="width:26px;height:26px;"><use href="#i-chat"/></svg>
+    </a>
+    <button type="button" id="btn-scroll-top" class="float-btn" title="맨 위로" style="opacity:0;pointer-events:none;">
+      <svg class="icon"><use href="#i-chevron-up"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile Bottom Sticky CTA -->
+  <div class="mobile-bottom-bar">
+    <a class="btn btn-channel" href="https://koreagiftcard.channel.io" target="_blank" rel="noopener noreferrer">
+      <svg class="icon"><use href="#i-chat"/></svg> 1:1 채널톡 상담 시작하기 <span>→</span>
+    </a>
+  </div>
+</body>
+</html>
