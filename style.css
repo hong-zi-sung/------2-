@@ -492,6 +492,11 @@ svg.icon {
   gap: 24px;
   margin-bottom: 42px;
 }
+.promise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
 .section h2 {
   font-size: 34px;
   line-height: 1.35;
@@ -1158,6 +1163,58 @@ svg.icon {
   .wrap {
     width: calc(100% - 32px);
   }
+  .rate-showcase-heading {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .rate-showcase-heading > div {
+    width: 100%;
+    min-width: 0;
+  }
+  .rate-showcase-heading h2,
+  .rate-showcase-heading .section-desc {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  .rate-showcase-heading .section-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rate-showcase-heading .btn {
+    align-self: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: center;
+  }
+  .promise-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  .promise-card {
+    min-width: 0;
+  }
+  .promise-card h3,
+  .promise-card p {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  .steps-cta .btn {
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
+  }
+  .calc-container {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .calc-container > * {
+    min-width: 0;
+  }
+  .calc-result-card .btn {
+    white-space: normal;
+  }
   .topline .extra {
     display: none;
   }
@@ -1267,6 +1324,8 @@ svg.icon {
   }
   .callout .btn {
     width: 100%;
+    min-width: 0;
+    white-space: normal;
   }
   .footer {
     padding-bottom: 95px;
