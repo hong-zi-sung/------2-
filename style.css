@@ -1246,6 +1246,20 @@ svg.icon {
   .service-cards-grid > .service-item-card:nth-child(3) .service-card-img img {
     object-position: center 35%;
   }
+  .section-heading + .service-cards-grid .service-card-img {
+    height: auto;
+    min-height: 0;
+  }
+  .section-heading + .service-cards-grid .service-card-img img {
+    display: block;
+    height: auto;
+    object-fit: contain;
+    transform: none;
+  }
+  .section-heading + .service-cards-grid > .service-item-card:nth-child(3) .service-card-img img,
+  .section-heading + .service-cards-grid > .service-item-card:nth-child(4) .service-card-img img {
+    transform: none;
+  }
   .callout {
     flex-direction: column;
     align-items: flex-start;
